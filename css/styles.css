@@ -219,10 +219,10 @@ a {
 
 .section-one {
   background-color: #ffffff;
+  padding: 120px 0;
 }
 
 .one-container {
-  margin: 0 auto;
 }
 
 .visually-hidden {
@@ -239,16 +239,13 @@ a {
 }
 
 .subtitle {
-  margin: 0;
-  padding: 0;
   display: flex;
-  flex-wrap: nowrap;
-  list-style: none;
+  appearance: none;
   gap: 24px;
 }
 
 .l-item {
-  width: calc((100% - 3 * 24px) / 4);
+  width: 264px;
 }
 
 .feature-subtitle {
@@ -268,7 +265,6 @@ a {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-bottom: 0;
 }
 
 .section-two {
