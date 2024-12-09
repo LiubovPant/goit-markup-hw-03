@@ -229,7 +229,7 @@ a {
   gap: 24px;
 }
 
-.l-item {
+.li-item {
   width: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
 }
