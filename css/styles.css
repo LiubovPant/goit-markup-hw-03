@@ -218,8 +218,8 @@ a {
 }
 
 .section-one {
-  background-color: #ffffff;
-  padding: 120px 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .one-container {
@@ -240,12 +240,16 @@ a {
 
 .subtitle {
   display: flex;
-  appearance: none;
+  align-items: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+
   gap: 24px;
 }
 
 .l-item {
-  width: 264px;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0 0 4px 4px;
 }
 
 .feature-subtitle {
