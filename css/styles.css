@@ -405,12 +405,9 @@ section {
 .page-footer {
   background: #2e2f42;
   padding: 100px 0 100px;
-  display: block;
 }
 
 .footer-container {
-  display: flex;
-  flex-direction: column;
 }
 
 .logo-footer-logo {
